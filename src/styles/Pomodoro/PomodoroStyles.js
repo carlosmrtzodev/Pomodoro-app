@@ -1,15 +1,23 @@
 import styled from "styled-components";
 
-export const Content = styled.div`
-  width: 300px;
-  height: 300px;
+const sharedStyle = `
   display: flex;
   font-size: 1.5em;
   text-align: center;
   align-items: center;
+  justify-content: center;
+`;
+
+export const Title = styled.div`
+  ${sharedStyle}
+  margin-bottom: .5em;
+`;
+export const Content = styled.div`
+  width: 300px;
+  ${sharedStyle}
+  height: 300px;
   border-radius: 100%;
   flex-direction: column;
-  justify-content: center;
   background-color: #457b9d;
   border: solid 0.5rem #a8dadc;
 `;

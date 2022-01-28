@@ -1,7 +1,7 @@
 body {
-  background-color: #1d3557;
-  color: #f1faee;
   height: 100vh;
+  color: #f1faee;
+  background-color: #1d3557;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -10,8 +10,9 @@ body {
 }
 
 .App {
-  display: flex;
   height: 100%;
-  justify-content: center;
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
