@@ -2,16 +2,18 @@ import styled from "styled-components";
 export const TitleContainer = styled.div`
   width: 100%;
 `;
-
 export const ButtonContainer = styled(TitleContainer)`
   width: 20%;
+
+  @media screen and (max-width: 500px) {
+    width: 90%;
+  }
 `;
 export const Title = styled.div`
   font-size: 3.2rem;
   text-align: center;
   margin-bottom: 2rem;
 `;
-
 export const SubTitle = styled(Title)`
   font-size: 2.4rem;
 `;
@@ -39,7 +41,7 @@ export const HoverEffect = styled.span`
   height: 100%;
   display: block;
   position: absolute;
-  background-color: #457b9d;
+  background-color: #ef233c;
   transition: transform 0.3s ease-out;
   transform: translateX(-100%) skew(-10deg);
   transition: -webkit-transform 0.3s ease-out;
@@ -60,13 +62,13 @@ export const LabelText = styled.span`
     height: 0.6rem;
     display: block;
     position: absolute;
-    background-color: #1d3557;
+    background-color: #2b2d42;
     transition: background-color 0.2s ease-in;
   }
 `;
 export const Button = styled.button`
   border: 0;
-  color: #f1faee;
+  color: #edf2f4;
   width: 100%;
   display: block;
   cursor: pointer;
@@ -86,7 +88,7 @@ export const Button = styled.button`
     position: absolute;
     height: calc(50% - 0.4rem);
     background-color: transparent;
-    border: 0.1rem solid #a8dadc;
+    border: 0.1rem solid #8d99ae;
   }
 
   &:before {
@@ -104,7 +106,8 @@ export const Button = styled.button`
   }
 
   &:hover .label-text:after {
-    background-color: #ece8e1;
+    background-color: #edf2f4;
   }
 `;
+
 export const Counter = styled.div``;
