@@ -1,10 +1,19 @@
 import styled from "styled-components";
-export const Content = styled.div`
-  width: auto;
-  display: flex;
-  margin-top: 4rem;
-  align-items: center;
-  justify-content: center;
+export const TitleContainer = styled.div`
+  width: 100%;
+`;
+
+export const ButtonContainer = styled(TitleContainer)`
+  width: 20%;
+`;
+export const Title = styled.div`
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+`;
+
+export const SubTitle = styled(Title)`
+  font-size: 2.4rem;
 `;
 export const Label = styled.div`
   margin: 0;
@@ -38,6 +47,7 @@ export const HoverEffect = styled.span`
 export const LabelText = styled.span`
   z-index: 1;
   display: block;
+  font-size: 3.2rem;
   position: relative;
   padding: 1.5rem 4rem;
   background-color: transparent;
@@ -60,7 +70,7 @@ export const Button = styled.button`
   width: 100%;
   display: block;
   cursor: pointer;
-  padding: 0.3rem;
+  padding: 0.5rem;
   font-weight: 400;
   font-size: 2.5rem;
   position: relative;

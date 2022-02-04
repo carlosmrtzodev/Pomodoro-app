@@ -1,18 +1,17 @@
 import React from "react";
-import { Title, Message } from "../styles/Pomodoro/PomodoroStyles";
+import { TitleContainer, Title, SubTitle } from "../styles/Styles";
 import PomodoroLogic from "../utils/PomodoroLogic";
 export default function titleMessage() {
   const { displayMessage } = PomodoroLogic();
 
   return (
-    <Title>
-      <Message>
-        {displayMessage && (
-          <div>
-            ¡Break time! <br /> New session starts in:
-          </div>
-        )}
-      </Message>
-    </Title>
+    <TitleContainer>
+      <Title>Pomodoro App</Title>
+      {displayMessage && (
+        <SubTitle>
+          ¡Break time! <br /> New session starts in:
+        </SubTitle>
+      )}
+    </TitleContainer>
   );
 }

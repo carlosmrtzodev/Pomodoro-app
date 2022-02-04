@@ -1,14 +1,25 @@
 import React from "react";
-import { Content, Timer } from "../styles/Pomodoro/PomodoroStyles";
+import {
+  ButtonContainer,
+  Button,
+  Label,
+  HoverEffect,
+  LabelText,
+} from "../styles/Styles";
 import PomodoroLogic from "../utils/PomodoroLogic";
 export default function Pomodoro() {
   const { timerSeconds, timerMinutes } = PomodoroLogic();
 
   return (
-    <Content>
-      <Timer>
-        {timerMinutes}:{timerSeconds}
-      </Timer>
-    </Content>
+    <ButtonContainer>
+      <Button>
+        <Label>
+          <HoverEffect className="hover-effect"></HoverEffect>
+          <LabelText className="label-text">
+            {timerMinutes}:{timerSeconds}
+          </LabelText>
+        </Label>
+      </Button>
+    </ButtonContainer>
   );
 }
