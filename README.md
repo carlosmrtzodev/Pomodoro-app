@@ -14,7 +14,7 @@ This is my first React.js app for fun and practice, it's a pomodoro app with cyc
 
 ## Find me at:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-carlosmrtzo-informational)](https://www.linkedin.com/in/carlosmrtzo/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-carlosmrtzo-informational)](https://www.linkedin.com/in/carlosmrtzo/) <br>
 [![Twitter](https://img.shields.io/badge/Twitter-carlosmrtzo8-9cf)](https://twitter.com/carlosmrtzo8)
 
 # Getting Started with Create React App
