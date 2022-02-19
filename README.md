@@ -6,7 +6,11 @@ This is my first React.js app for fun and practice, it's a pomodoro app with cyc
 
 ## Used technologies:
 
-(https://img.shields.io/badge/-React.js-blue)
+[![HTML](https://img.shields.io/badge/-HTML-red)]()
+[![CSS](https://img.shields.io/badge/-CSS-9cf)]()
+[![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)]()
+[![React](https://img.shields.io/badge/-React.js-blue)]()
+[![Styled Component](https://img.shields.io/badge/-Styled Component-lightgrey)]()
 
 ## Find me at:
 
