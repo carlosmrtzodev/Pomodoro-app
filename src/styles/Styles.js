@@ -11,6 +11,13 @@ export const Container = styled.div`
   background: rgba(239, 35, 60, 0.3);
   -webkit-backdrop-filter: blur(0rem);
   border: 0.1rem solid rgba(217, 4, 41, 0.18);
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 50%;
+  }
 `;
 
 export const TitleContainer = styled.div`
