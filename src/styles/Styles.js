@@ -15,9 +15,6 @@ export const Container = styled.div`
   @media screen and (max-width: 768px) {
     width: 100%;
   }
-  @media screen and (max-width: 1024px) {
-    width: 50%;
-  }
 `;
 
 export const TitleContainer = styled.div`
