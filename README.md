@@ -1,3 +1,18 @@
+# Hello, my name is Carlos Martínez.
+
+### Freelance Front-end Web Developer.
+
+This is my first React.js app for fun and practice, it's a pomodoro app with cycle completion and break counters with my own style and responsive, enjoy it.
+
+## Used technologies:
+
+[![React](https://img.shields.io/badge/-React.js-blue)]()
+
+## Find me at:
+
+[![Twitter](https://img.shields.io/badge/Twitter-@mouredev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=101010)](https://twitter.com/carlosmrtzo8)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Brais_Moure-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/carlosmrtzo/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
