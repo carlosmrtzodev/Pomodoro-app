@@ -1,12 +1,12 @@
 import "./styles/App.css";
-import Pomodoro from "./components/Pomodoro";
-import TitleMessage from "./components/TitleMessage";
+import Card from "./components/Card";
+import Info from "./components/Info";
 
 function App() {
   return (
     <div className="App">
-      <TitleMessage />
-      <Pomodoro />
+      <Card />
+      <Info />
     </div>
   );
 }

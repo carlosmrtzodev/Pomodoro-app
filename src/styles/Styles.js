@@ -1,113 +1,52 @@
 import styled from "styled-components";
+export const Container = styled.div`
+  gap: 1rem;
+  width: 25%;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+  backdrop-filter: blur(0rem);
+  background: rgba(239, 35, 60, 0.3);
+  -webkit-backdrop-filter: blur(0rem);
+  border: 0.1rem solid rgba(217, 4, 41, 0.18);
+`;
+
 export const TitleContainer = styled.div`
-  width: 100%;
-`;
-export const ButtonContainer = styled(TitleContainer)`
-  width: 20%;
-
-  @media screen and (max-width: 500px) {
-    width: 90%;
-  }
-`;
-export const Title = styled.div`
-  font-size: 3.2rem;
   text-align: center;
-  margin-bottom: 2rem;
 `;
-export const SubTitle = styled(Title)`
-  font-size: 2.4rem;
-`;
-export const Label = styled.div`
-  margin: 0;
-  overflow: hidden;
-  position: relative;
 
-  &:before {
-    left: 0;
-    bottom: 0;
-    content: "";
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-  }
-`;
-export const HoverEffect = styled.span`
-  top: 0;
-  left: -5%;
-  z-index: 1;
-  content: "";
-  width: 120%;
-  height: 100%;
-  display: block;
-  position: absolute;
-  background-color: #ef233c;
-  transition: transform 0.3s ease-out;
-  transform: translateX(-100%) skew(-10deg);
-  transition: -webkit-transform 0.3s ease-out;
-`;
-export const LabelText = styled.span`
-  z-index: 1;
-  display: block;
-  font-size: 3.2rem;
-  position: relative;
-  padding: 1.5rem 4rem;
-  background-color: transparent;
-
-  &:after {
-    right: 0;
-    bottom: 0;
-    content: "";
-    width: 0.6rem;
-    height: 0.6rem;
-    display: block;
-    position: absolute;
-    background-color: #2b2d42;
-    transition: background-color 0.2s ease-in;
-  }
-`;
-export const Button = styled.button`
-  border: 0;
+export const Title = styled.h1`
   color: #edf2f4;
-  width: 100%;
-  display: block;
-  cursor: pointer;
-  padding: 0.5rem;
-  font-weight: 400;
-  font-size: 2.5rem;
-  position: relative;
-  text-transform: uppercase;
-  background-color: transparent;
-
-  &:after,
-  &:before {
-    left: 0;
-    width: 99.4%;
-    content: "";
-    display: block;
-    position: absolute;
-    height: calc(50% - 0.4rem);
-    background-color: transparent;
-    border: 0.1rem solid #8d99ae;
-  }
-
-  &:before {
-    top: 0;
-    border-bottom: 0;
-  }
-
-  &:after {
-    bottom: 0;
-    border-top: 0;
-  }
-
-  &:hover .hover-effect {
-    transform: translateX(0) skew(-10deg);
-  }
-
-  &:hover .label-text:after {
-    background-color: #edf2f4;
-  }
+  font-size: 3.2rem;
 `;
 
-export const Counter = styled.div``;
+export const Text = styled.h1`
+  color: #edf2f4;
+  font-weight: 300;
+  font-size: 1.6rem;
+`;
+
+export const PomodoroContainer = styled(TitleContainer)`
+  color: #edf2f4;
+  font-weight: 700;
+  font-size: 6.4rem;
+`;
+
+export const CounterContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const InfoContainer = styled(CounterContainer)`
+  gap: 2rem;
+  left: 2rem;
+  bottom: 2rem;
+  position: absolute;
+`;
+
+export const TextAlt = styled(Title)`
+  font-size: 2rem;
+`;

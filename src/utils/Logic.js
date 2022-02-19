@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const PomodoroLogic = () => {
-  const [minutes, setMinutes] = useState(1);
+  const [minutes, setMinutes] = useState(25);
   const [seconds, setSeconds] = useState(0);
   const [displayMessage, setDisplayMessage] = useState(false);
   const [counter, setCounter] = useState(0);
