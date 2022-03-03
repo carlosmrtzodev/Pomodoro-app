@@ -7,7 +7,7 @@ function Info() {
   return (
     <InfoContainer>
       <FontAwesomeIcon icon={faGithub} size="5x" spin className="icon" />
-      <TextAlt>Created by carlosmrtzo8</TextAlt>
+      <TextAlt>Created by carlosmrtzodev</TextAlt>
     </InfoContainer>
   );
 }
