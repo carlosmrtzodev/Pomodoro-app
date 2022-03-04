@@ -1,6 +1,8 @@
-# Hello, my name is Carlos Martínez.
+# Hello, my name is Carlos Martínez. <br><br> Front-end Developer.
 
-### Freelance Front-end Web Developer.
+<br>
+
+## Description.
 
 This is my first React.js app for fun and practice, it's a pomodoro app with cycle completion and break counters with my own style and responsive, enjoy it.
 
