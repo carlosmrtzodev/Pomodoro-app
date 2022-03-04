@@ -6,16 +6,16 @@ This is my first React.js app for fun and practice, it's a pomodoro app with cyc
 
 ## Used technologies:
 
-[![HTML](https://img.shields.io/badge/-HTML-red)]()
-[![CSS](https://img.shields.io/badge/-CSS-9cf)]()
+[![HTML5](https://img.shields.io/badge/-HTML-red)]()
+[![CSS3](https://img.shields.io/badge/-CSS-9cf)]()
 [![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)]()
 [![React](https://img.shields.io/badge/-React.js-blue)]()
 [![Styled Component](https://img.shields.io/badge/-Styled%20Component-lightgrey)]()
 
 ## Find me at:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-carlosmrtzo-informational)](https://www.linkedin.com/in/carlosmrtzo/) <br>
-[![Twitter](https://img.shields.io/badge/Twitter-carlosmrtzo8-9cf)](https://twitter.com/carlosmrtzo8)
+[![Linked In](https://img.shields.io/badge/Linked%20In-carlosmrtzodev-informational)](https://www.linkedin.com/in/carlosmrtzodev/)
+[![Twitter](https://img.shields.io/badge/Twitter-carlosmrtzodev-9cf)](https://twitter.com/carlosmrtzodev)
 
 # Getting Started with Create React App
 
