@@ -4,7 +4,9 @@
 
 Hello 👋.
 
-Pomodoro App in React.
+I'm Carlos, a Front End Developer.
+
+This is my Pomodoro App in React for my own practice and personal project.
 
 ## 💼 Used Skills
 
