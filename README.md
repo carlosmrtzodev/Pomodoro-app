@@ -1,23 +1,22 @@
-# Hello, my name is Carlos Martínez. <br><br> Front-end Developer.
+[![Carlos's GitHub Banner](https://raw.githubusercontent.com/carlosmrtzodev/carlosmrtzodev/master/assets/Banner.png)](https://github.com/carlosmrtzodev/)
+[![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=for-the-badge&logo=twitter&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)](https://twitter.com/carlosmrtzodev)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=for-the-badge&logo=linkedin&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)](https://www.linkedin.com/in/carlosmrtzodev/)
 
-<br>
+Hello 👋.
 
-## Description.
+Pomodoro App in React.
 
-This is my first React.js app for fun and practice, it's a pomodoro app with cycle completion and break counters with my own style and responsive, enjoy it.
+## 💼 Used Skills
 
-## Used technologies:
+![](https://img.shields.io/badge/Tools-Git-informational?style=for-the-badge&logo=Git&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
+![](https://img.shields.io/badge/Tools-GitHub-informational?style=for-the-badge&logo=GitHub&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
+![](https://img.shields.io/badge/Tools-VScode-informational?style=for-the-badge&logo=visual-studio-code&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
 
-[![HTML5](https://img.shields.io/badge/-HTML5-red)]()
-[![CSS3](https://img.shields.io/badge/-CSS3-9cf)]()
-[![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)]()
-[![React](https://img.shields.io/badge/-React-blue)]()
-[![Styled Component](https://img.shields.io/badge/-Styled%20Component-lightgrey)]()
+![](https://img.shields.io/badge/Code-React-informational?style=for-the-badge&logo=react&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
+![](https://img.shields.io/badge/Code-JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
 
-## Find me at:
-
-[![Linked In](https://img.shields.io/badge/Linked%20In-carlosmrtzodev-informational)](https://www.linkedin.com/in/carlosmrtzodev/)
-[![Twitter](https://img.shields.io/badge/Twitter-carlosmrtzodev-9cf)](https://twitter.com/carlosmrtzodev)
+![](https://img.shields.io/badge/Markup-HTML5-informational?style=for-the-badge&logo=html5&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
+![](https://img.shields.io/badge/Style-CSS3-informational?style=for-the-badge&logo=css3&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)
 
 # Getting Started with Create React App
 
