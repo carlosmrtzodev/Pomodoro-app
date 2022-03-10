@@ -5,7 +5,7 @@
 ## 📄 Intro.
 
 <div align="center">
-This is a simple Pomodoro App With React and Styled Components for practice. <br><br>
+This is a simple Pomodoro App With React.js and Styled Components for practice. <br><br>
 </div>
 
 [![Pomodoro App Banner](./assets/banner.png)](https://pomodoro-app-sage.vercel.app/)
