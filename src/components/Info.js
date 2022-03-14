@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function Info() {
   return (
     <InfoContainer>
-      <FontAwesomeIcon icon={faGithub} size="5x" spin className="icon" />
+      <FontAwesomeIcon icon={faGithub} size="5x" className="icon" />
       <TextAlt>Created by carlosmrtzodev</TextAlt>
     </InfoContainer>
   );
