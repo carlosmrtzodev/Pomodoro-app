@@ -1,14 +1,29 @@
 import React from "react";
-import { InfoContainer, TextAlt } from "../styles/Styles";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Center, Credits, Flex, Icons, Link, Small } from "../styles/Styles";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Info() {
   return (
-    <InfoContainer>
-      <FontAwesomeIcon icon={faGithub} size="5x" className="icon" />
-      <TextAlt>Created by carlosmrtzodev</TextAlt>
-    </InfoContainer>
+    <Center>
+      <Credits>
+        <Flex>
+          <Icons>
+            <FontAwesomeIcon icon={faGithub} />
+          </Icons>
+
+          <Small>
+            <Link
+              href="https://github.com/carlosmrtzodev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Designed and Built by: carlosmrtzodev
+            </Link>
+          </Small>
+        </Flex>
+      </Credits>
+    </Center>
   );
 }
 

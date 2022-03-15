@@ -1,13 +1,14 @@
 import "./styles/App.css";
-import Card from "./components/Card";
 import Info from "./components/Info";
+import { Container } from "./styles/Styles";
+import Pomodoro from "./components/Pomodoro";
 
 function App() {
   return (
-    <div className="App">
-      <Card />
+    <Container>
+      <Pomodoro />
       <Info />
-    </div>
+    </Container>
   );
 }
 export default App;
