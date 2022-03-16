@@ -79,6 +79,14 @@ export const Text = styled.p`
   }
 `;
 
+export const TextLink = styled(Text)`
+  transition: all ease 0.3s;
+
+  &:hover {
+    color: #48e5c2;
+  }
+`;
+
 export const Small = styled(Text)`
   font-size: 2rem;
 
