@@ -16,7 +16,7 @@ function Info() {
             <Link
               href="https://github.com/carlosmrtzodev"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Designed and Built by: carlosmrtzodev
             </Link>
