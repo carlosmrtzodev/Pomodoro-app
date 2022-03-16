@@ -5,7 +5,7 @@
 ## 📄 Intro.
 
 <div align="center">
-Responsive Pomodoro App in React.js and Styled Components. <br><br>
+Pomodoro App in React.js and Styled Components. <br><br>
 </div>
 
 [![Pomodoro App Banner](./assets/banner.png)](https://pomodoro-app-sage.vercel.app/)
