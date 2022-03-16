@@ -1,4 +1,3 @@
-import React from "react";
 import Logic from "../utils/Logic";
 import {
   faCheck,
