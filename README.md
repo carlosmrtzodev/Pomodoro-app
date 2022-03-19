@@ -1,14 +1,10 @@
-[![Carlos's GitHub Banner](https://raw.githubusercontent.com/carlosmrtzodev/carlosmrtzodev/master/assets/BannerWork.png)](https://github.com/carlosmrtzodev/)
-[![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=for-the-badge&logo=twitter&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)](https://twitter.com/carlosmrtzodev)
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=for-the-badge&logo=linkedin&logoColor=edf2f4&color=ef233c&labelColor=2b2d42)](https://www.linkedin.com/in/carlosmrtzodev/)
-
 ## 📄 Intro.
 
 <div align="center">
-Pomodoro App in React.js and Styled Components. <br><br>
+Pomodoro App in React.js with React Router and Styled Components. <br><br>
 </div>
 
-[![Pomodoro App Banner](./assets/banner.png)](https://pomodoro-app-sage.vercel.app/)
+[![Pomodoro App Banner](./public/banner.png)](https://pomodoro-app-sage.vercel.app/)
 
 ## 💼 Used technologies
 

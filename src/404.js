@@ -1,14 +1,8 @@
 import { Link } from "react-router-dom";
+import { Icons, TextLink, Title } from "./styles/Fonts";
+import { Container, Content, Flex } from "./styles/Containers";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import {
-  Container,
-  Content,
-  Flex,
-  Icons,
-  TextLink,
-  Title,
-} from "./styles/Styles";
 
 const NotFound = () => {
   return (
@@ -20,10 +14,10 @@ const NotFound = () => {
           <Link to="/">
             <TextLink>
               <Flex>
-                Go back{" "}
                 <Icons>
-                  <FontAwesomeIcon icon={faArrowRight} />
+                  <FontAwesomeIcon icon={faArrowLeft} />
                 </Icons>
+                Go back
               </Flex>
             </TextLink>
           </Link>

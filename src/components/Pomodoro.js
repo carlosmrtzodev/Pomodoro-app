@@ -4,8 +4,9 @@ import {
   faCoffee,
   faStopwatch,
 } from "@fortawesome/free-solid-svg-icons";
+import { Content, Flex } from "../styles/Containers";
+import { Icons, Text, Timer, Title } from "../styles/Fonts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Content, Flex, Icons, Text, Timer, Title } from "../styles/Styles";
 
 export default function Pomodoro() {
   const { timerSeconds, timerMinutes, displayMessage, breaks, completed } =
@@ -22,31 +23,32 @@ export default function Pomodoro() {
           </Text>
         )}
 
-        <Flex>
-          <Timer>
+        <Timer>
+          <Flex>
             {timerMinutes}:{timerSeconds}{" "}
-          </Timer>
+            <Icons>
+              <FontAwesomeIcon icon={faStopwatch} />
+            </Icons>
+          </Flex>
+        </Timer>
 
-          <Icons>
-            <FontAwesomeIcon icon={faStopwatch} />
-          </Icons>
-        </Flex>
+        <Text>
+          <Flex>
+            Completed: {completed}
+            <Icons>
+              <FontAwesomeIcon icon={faCheck} />
+            </Icons>
+          </Flex>
+        </Text>
 
-        <Flex>
-          <Text>Completed: {completed}</Text>
-
-          <Icons>
-            <FontAwesomeIcon icon={faCheck} />
-          </Icons>
-        </Flex>
-
-        <Flex>
-          <Text>Breaks: {breaks}</Text>
-
-          <Icons>
-            <FontAwesomeIcon icon={faCoffee} />
-          </Icons>
-        </Flex>
+        <Text>
+          <Flex>
+            Breaks: {breaks}
+            <Icons>
+              <FontAwesomeIcon icon={faCoffee} />
+            </Icons>
+          </Flex>
+        </Text>
       </Content>
     </>
   );
