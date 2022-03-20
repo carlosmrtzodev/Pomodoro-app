@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles/globals.css";
 import Pomodoro from "./components/Pomodoro";
 import { Container } from "./styles/Containers";
 
