@@ -1,7 +1,7 @@
 ## 📄 Intro.
 
 <div align="center">
-Pomodoro App in React.js with React Router and Styled Components. <br><br>
+Pomodoro App in React.js and Styled Components. <br><br>
 </div>
 
 [![Pomodoro App Banner](./public/banner.png)](https://pomodoro-app-sage.vercel.app/)
